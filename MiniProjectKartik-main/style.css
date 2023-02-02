@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: #47B5FF;
+} */
+.main{
+    height: 30rem;
+    background-color: #C3F8FF;
+   
+   
+}
+.main-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 2rem;
+}
+.spacer {
+    aspect-ratio: 960/300;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+  }
+  .layer1 {
+    background-image: url("./img/svg3.png");
+    margin: 0;
+    position: relative;
+    bottom: 8.1rem;
+    z-index: 2;
+  }
+.content{
+    width: 50rem;
+    display: inline-block;
+    padding-left: 5rem;
+    padding-right: 0.5rem;
+    font-size: 1.5rem; 
+    position:relative;
+    top: 2rem;
+}
+  .img1{
+width: 30rem;
+display: inline-block;
+position: relative;
+left: 2rem;
+  }
+  .navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+  }
+.nav{
+    background-color: #C3F8FF;
+}
+
+.alumniinfo{
+   margin-top: 12.5rem;
+   background-color: #C3F8FF;
+   padding-top: 5rem;
+   color: #8758FF;
+   padding-bottom: 2rem;
+   font-size: 1.5rem;
+  
+}
+
+.info{
+  padding: 1rem;
+}
+.Content1{
+  background-color: #C3F8FF;
+  padding-bottom: 4rem;
+}
+
+.FeedImage{
+  width: 70%;
+  /* margin-bottom: 3rem; */
+  margin-left: 9rem;
+  border-style:  solid ;
+  border-color: var(--coreBlue) var(--coreRed) var(--coreYellow) var(--coreGreen);
+  border-width: 1rem;
+  padding: 1rem;
+ 
+  }
+  
+  .row {
+    display: flex;
+    max-width: 95%;
+  }
+  
+  .column {
+    flex: 25%;
+    padding:  0 !important;
+  }
+
+.alumniname{
+  text-align: center;
+  position: relative;
+  left: 5rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 1rem 0 1rem 0;
+  color: #8758FF;
+  background-color: #C3F8FF;
+  padding-bottom: 5rem;
+
+}
+a:link{
+  text-decoration: none ;
+}
+
+
+#footer {
+  display: block;
+  background-color: #cfffdc;
+  padding: 3rem;
+}
+.footer-icons {
+  word-spacing: 1rem;
+}
+
+.btn{
+  margin-top:100px;
+  position: relative;
+  left: 8rem;
+  }
+.footer-box{
+  margin-right: 4rem;
+}
+
+/*         For chatpage     */
+
+.chatcontent{
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  font-size: 1.5rem; 
+  position:relative;
+  top: 0rem;
+  background-color: #C3F8FF;
+  /* left: 5rem; */
+  margin-bottom: 0rem;
+  padding-bottom: 9rem;
+}
+
+.btn-alumni{
+  margin-right: 4rem;
+}
+
+
+
+
+/*    For meet page */
+
+.meetinfo{
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  font-size: 1.5rem; 
+  position:relative;
+  top: 0rem;
+  background-color: #C3F8FF;
+  /* left: 5rem; */
+  margin-bottom: 0rem;
+  padding-bottom: 12rem;
+}
+
+.meet{
+  padding: 1rem;
+}
