@@ -615,5 +615,14 @@ body {
 }
 
 .googlelogo{
-    width: 20rem;
+    width: 2rem !important;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+  }
+.nav{
+    background-color: #C3F8FF;
 }
