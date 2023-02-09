@@ -1,99 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log-in & Sign-up Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style2.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</head>
-<body>
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style2.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a
-            class="navbar nav-link active"
-            aria-current="page"
-            href="./index.html"
-            >Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar nav-link" href="./chatandconnect.html">Chat and Connect with Alumni</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar nav-link" href="./events.html">Events for Alumni</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar nav-link" href="form.html">Sign Up</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar nav-link"href="./contact.html">Contact us</a>
-        </li>
-      </ul>
-      
-      <h1 class="main-heading2">Login/Sign Up Form</h1>
+      <li class="nav-item">
+        <a
+          class="navbar nav-link active"
+          aria-current="page"
+          href="./index.html"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="navbar nav-link" href="./chatandconnect.html"
+          >Chat and Connect with Alumni</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="navbar nav-link" href="./events.html">Events for Alumni</a>
+      </li>
+      <li class="nav-item">
+        <a class="navbar nav-link" href="form.html">Sign Up</a>
+      </li>
+      <li class="nav-item">
+        <a class="navbar nav-link" href="./contact.html">Contact us</a>
+      </li>
+    </ul>
+
+    <h1 class="main-heading2">Login/Sign Up Form</h1>
 
     <div class="container" id="content01">
-        <div class="img-slider">
-            <h2>Welcome to RGIT</h2>
-            <p>we are a community together helping thousands of people out there who are struggling </p>
-            <img src="./img/rgit1.jpg" alt="img">
+      <div class="img-slider">
+        <h2>Welcome to RGIT</h2>
+        <p>
+          we are a community together helping thousands of people out there who
+          are struggling
+        </p>
+        <img src="./img/rgit1.jpg" alt="img" />
+      </div>
+      <div class="content">
+        <h2>Get Started</h2>
+        <p>Already have account ? <a href="#" id="login">Sign In </a></p>
+        <form id="form">
+          <label for="name" id="nlabel">Name</label> <br />
+          <input type="text" id="fname" placeholder="RGIT" autocomplete="off" />
+          <br />
+          <label for="email" id="elabel">Email</label> <br />
+          <input
+            type="email"
+            id="eemail"
+            placeholder="abc@gmail.com"
+            autocomplete="off"
+          />
+          <br />
+          <label for="password" id="plabel">Password</label> <br />
+          <input type="password" name="password" id="lpassword" /> <br />
+          <button type="submit" onclick="UserRegister()" id="btn">
+            Sign Up
+          </button>
+        </form>
+        <div class="other">
+          <h3>Or Sign up with</h3>
+          <div class="icons">
+            <a href="https://mail.google.com"
+              ><img class="googlelogo" src="./img/search.png"
+            /></a>
+          </div>
         </div>
-        <div class="content">
-            <h2>Get Started</h2>
-            <p>Already have account ?  <a href="#" id="login">Sign In </a></p>
-            <form id="form">
-                <label for="name" id="nlabel">Name</label> <br>
-                <input type="text" id="fname" placeholder="RGIT" autocomplete="off"> <br>
-                <label for="email" id="elabel">Email</label> <br>
-                <input type="email" id="eemail" placeholder="abc@gmail.com" autocomplete="off"> <br>
-                <label for="password" id="plabel">Password</label> <br>
-                <input type="password" name="password" id="lpassword"> <br>
-                <button type="submit"  onclick="UserRegister()" id="btn">Sign Up </button>
-            </form>
-            <div class="other">
-                <h3>Or Sign up with </h3>
-                <div class="icons">
-                    <a href="https://mail.google.com"><img class="googlelogo " src="./img/search.png"/></a>
-                    
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
     <div class="container display" id="content02">
-        <div class="img-slider">
-            <h2>Welcome to RGIT</h2>
-            <p>we are a community together helping thousands of people out there who are struggling </p>
-                <img src="./Images/undraw_mobile_login_ikmv-removebg-preview.png" alt="img" class="sign-img">
+      <div class="img-slider">
+        <h2>Welcome to RGIT</h2>
+        <p>
+          we are a community together helping thousands of people out there who
+          are struggling
+        </p>
+        <img
+          src="./Images/undraw_mobile_login_ikmv-removebg-preview.png"
+          alt="img"
+          class="sign-img"
+        />
+      </div>
+      <div class="content">
+        <h2>Get Started</h2>
+        <p>Don't have account ? <a href="#" id="sign-up">Sign up </a></p>
+        <form action="" id="form">
+          <label for="email" id="elabel">Email</label> <br />
+          <input
+            type="email"
+            id="eemail"
+            placeholder="Lucifer@gmail.com"
+            autocomplete="off"
+          />
+          <br />
+          <label for="password" id="plabel">Password</label> <br />
+          <input type="password" name="password" id="lpassword" /> <br />
+          <button type="submit" onclick="SignIn()" id="btn1">Log-In</button>
+        </form>
+        <div class="other">
+          <h3>Or Sign up with</h3>
+          <div class="icons">
+            <img
+              src="https://img.icons8.com/bubbles/50/000000/google-logo.png"
+            />
+          </div>
         </div>
-        <div class="content">
-            <h2>Get Started</h2>
-            <p>Don't have account ?  <a href="#" id="sign-up" >Sign up </a></p>
-            <form action="" id="form">
-                <label for="email" id="elabel">Email</label> <br>
-                <input type="email" id="eemail" placeholder="Lucifer@gmail.com" autocomplete="off"> <br>
-                <label for="password" id="plabel">Password</label> <br>
-                <input type="password" name="password" id="lpassword"> <br>
-                <button type="submit" onclick="SignIn()" id="btn1">Log-In </button>
-            </form>
-            <div class="other">
-                <h3>Or Sign up with </h3>
-                <div class="icons">
-                    <img src="https://img.icons8.com/bubbles/50/000000/google-logo.png"/>   
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
-<script src="data.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="server.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    <script src="data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="server.js"></script>
 
-<!-- <section id="footer1">
+    <!-- <section id="footer1">
     <div class="row justify-content-md-center">
   
       <div class="footer-box col-lg-3">
@@ -115,6 +153,5 @@
       </div>
     </div>
   </section> -->
-
-</body>
+  </body>
 </html>
