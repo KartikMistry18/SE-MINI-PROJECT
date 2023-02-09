@@ -46,6 +46,7 @@
 width: 30rem;
 display: inline-block;
 position: relative;
+bottom: 2rem;
 left: 2rem;
   }
   .navbar{
@@ -58,7 +59,7 @@ left: 2rem;
 }
 
 .alumniinfo{
-   margin-top: 12.5rem;
+   margin-top: 10.5rem;
    background-color: #C3F8FF;
    padding-top: 5rem;
    color: #8758FF;
