@@ -1,19 +1,16 @@
 const firebaseConfig = {
     apiKey: "AIzaSyBT10G4ABn9Ja0TnFKBv-YfYHRo4LdaUAQ",
     authDomain: "signuppage-68a51.firebaseapp.com",
+    databaseURL: "https://signuppage-68a51-default-rtdb.firebaseio.com",
     projectId: "signuppage-68a51",
     storageBucket: "signuppage-68a51.appspot.com",
     messagingSenderId: "369734175269",
     appId: "1:369734175269:web:6e10ccb624bbc1cfe7cdcc",
     measurementId: "G-VYHNBM4DSJ"
   };
-  
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-
-  import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 
 // let's code 
 var datab  = firebase.database().ref('data');

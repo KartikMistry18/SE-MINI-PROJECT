@@ -73,6 +73,9 @@ left: 2rem;
 .Content1{
   background-color: #C3F8FF;
   padding-bottom: 4rem;
+  padding-top: 4rem;
+  position : relative;
+  bottom: 1rem;
 }
 
 .FeedImage{
@@ -303,6 +306,7 @@ a:link{
   font-weight: 900;
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #C3F8FF;
 }
 

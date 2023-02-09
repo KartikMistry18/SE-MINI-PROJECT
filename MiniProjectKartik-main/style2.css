@@ -15,7 +15,7 @@ body {
 }
 .container {
     width: 900px;
-    height: 500px;
+    height: 630px;
     background-color: #fff;
     position: absolute;
     top: 150px;
@@ -24,8 +24,9 @@ body {
 }
 .img-slider{
     width: 400px;
-    height: 500px;
-    border-right: 2px solid #D6FAE7;
+    height: 600px;
+    border-right: 2px solid #D6FAE7; 
+    border-left: 0rem;
     border-radius: 20px;
     /* border: 1px solid #000; */
     background-color: #D6FAE7;
@@ -644,11 +645,11 @@ body {
     word-spacing: 1rem;
   }
 
-  .btn1{
+  .btn{
     margin-top:100px;
     position: relative;
     left: 8rem;
     }
-  .footer-box1{
+  .footer-box{
     margin-right: 4rem;
   }
