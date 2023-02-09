@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: bisque;
+    background-color: #C3F8FF;
     height: 100vh;
 }
 .container {
@@ -626,3 +626,29 @@ body {
 .nav{
     background-color: #C3F8FF;
 }
+
+.main-heading2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#footer1 {
+    display: block;
+    background-color: #cfffdc;
+    padding: 3rem;
+  }
+  .footer-icons1 {
+    word-spacing: 1rem;
+  }
+
+  .btn1{
+    margin-top:100px;
+    position: relative;
+    left: 8rem;
+    }
+  .footer-box1{
+    margin-right: 4rem;
+  }

@@ -12,6 +12,9 @@ const firebaseConfig = {
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 
+  import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
 // let's code 
 var datab  = firebase.database().ref('data');
 function UserRegister(){
