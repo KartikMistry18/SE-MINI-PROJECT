@@ -108,7 +108,7 @@ left: 2rem;
   margin: 1rem 0 1rem 0;
   color: #8758FF;
   background-color: #C3F8FF;
-  padding-bottom: 5rem;
+  padding-bottom: 7rem;
 
 }
 a:link{
@@ -120,6 +120,10 @@ a:link{
   display: block;
   background-color: #cfffdc;
   padding: 3rem;
+  position: relative;
+  bottom : 1rem;
+  
+
 }
 .footer-icons {
   word-spacing: 1rem;
@@ -132,6 +136,7 @@ a:link{
   }
 .footer-box{
   margin-right: 4rem;
+  padding-top: 2rem;
 }
 
 /*         For chatpage     */
@@ -317,3 +322,12 @@ a:link{
   padding-bottom: 4rem;
   padding-top: 4rem;
 }
+
+.img2{
+  width: 30rem;
+  height: 15rem;
+  display: inline-block;
+  position: relative;
+  bottom: 2rem;
+  left: 2rem;
+    }
