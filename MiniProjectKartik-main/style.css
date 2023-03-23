@@ -299,7 +299,7 @@ a:link{
 
 
 .main2{
-  height: 30rem;
+  height: 60rem;
   background-color: #C3F8FF;
   margin-bottom: 12rem;
  
@@ -325,9 +325,23 @@ a:link{
 
 .img2{
   width: 30rem;
-  height: 15rem;
+  height: 25rem;
   display: inline-block;
   position: relative;
-  bottom: 2rem;
+  bottom: 20rem;
   left: 2rem;
-    }
+  }
+
+  #footer2 {
+    display: block;
+    background-color: #cfffdc;
+    padding: 3rem;
+    position: relative;
+    bottom : 12rem;
+    
+  
+  }
+.bg3{
+  background-color: #cfffdc;
+}
+      
